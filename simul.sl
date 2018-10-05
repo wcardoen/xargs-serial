@@ -12,7 +12,7 @@
 #   NUM_ITER: Number of Steps for each MC calculation
 #   OUT_DIR : Directory where results will be stored
 #   FILENAME: Each results will be Stored in $OUT_DIR/FILENAME.$ITER.txt
-export WORK_DIR=~/MC
+export WORK_DIR=~/xargs-serial
 export NUM_SIM=40  
 export NUM_ITER=100000000        
 export OUT_DIR=$WORK_DIR/$SLURM_JOBID
